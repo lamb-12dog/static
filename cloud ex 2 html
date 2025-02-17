@@ -1,0 +1,73 @@
+<!DOCTYPE html>  <!--HTML 5 Version-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+</head>
+<body>
+    <h1 style="text-align: center;">BIO DATA</h1>
+    <a href="#table">table example</a>
+    <a href="#list1">ordered list</a>
+    <a href="#list2"> unorderedlist</a>
+    <hr>
+    <a href="https://karunya.edu/">karunya university</a> &nbsp;
+    <a href="https://www.w3schools.com/html/html_links.asp">w3schools</a>
+    <a href="https://www.w3schools.com/html/html_links.asp">
+        <img src="download (1).png" width="100" height="50" alt="">
+     </a> &nbsp; &nbsp; &nbsp;
+     <a href="mailto:info@karunya.edu">Email us</a>&nbsp; &nbsp; &nbsp;
+     <a href="tel:9934212238">call us</a>&nbsp; &nbsp; &nbsp;
+    <P>
+        <strong>no4, Karunya Nagar</strong> <br>
+        CBE<br>
+        INDIA
+    </P>
+    <img src="download.jpg" width="400" height="200" alt="">
+    <hr>
+    <h3 id="Table">Table example</h3>
+    <table border="1" width="100%" cellspacing="0">
+        <tr bgcolor="dodgerblue">
+            <th>sl.No</th><th>Reg.no</th><th>Name</th><th>CGPA</th>
+        </tr>
+        <tr style="text-align: center;">
+            <td>1</td><td>1012</td><td>kelsey</td><td>8</td>
+        </tr>
+        <tr style="text-align: center;">
+            <td>2</td><td>2012</td><td>shalzz</td><td>9</td>
+        </tr>
+        <tr style="text-align: center;">
+            <td>3</td><td>3012</td><td>gayu</td><td>8.9</td>
+        </tr>
+        <tr style="text-align: center;">
+            <td>4</td><td>4012</td><td>eb</td><td>8.6</td>
+        </tr>
+        <tr style="text-align: center;">
+            <td>5</td><td>5012</td><td>mithu</td><td>7.9</td>
+        </tr>
+    </table>
+    <hr>
+    <h4 id="list1">Ordered list</h4>
+    <ol>
+        <li>apple</li>
+        <li>orange</li>
+        <li>mango</li>
+    </ol>
+    <hr>
+    <h4 id="list2">unordered list</h4>
+    <ul>
+        <li>melon</li>
+        <li>pine</li>
+    </ul>
+    <h2 id="list3">A Description List</h2>
+    <dl>
+        <dt>Programming language</dt>
+        <dd>- java</dd>
+        <dt>Java script</dt>
+        <dd>- it is a web programming language</dd>
+      </dl>
+    <br><br><br><br>
+
+    
+</body>
+</html>

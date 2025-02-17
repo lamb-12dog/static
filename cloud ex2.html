@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setInterval() Timer Function Document</title>
+</head>
+<body>
+    <h1>Digital Clock!</h1>
+    <span id="time"></span>
+    <script>
+        function view() {
+            alert("WELCOME");
+            //logic
+            var d = new Date();
+            var hours = d.getHours();
+            var minutes = d.getMinutes();
+            var seconds = d.getSeconds();
+            document.getElementById('time').textContent = hours + ":" + minutes + ":" + seconds;
+        }
+        setInterval(view, 1000);
+    </script>
+    <script>
+        var red = Math.floor(Math.random() * 255);
+        var blue = Math.floor(Math.random() * 255);
+        var green = Math.floor(Math.random() * 255);
+        var color = "rgb(" + red + "," + green + "," + blue + ")";
+        document.getElementsByTagName("body")[0].style.backgroundColor = color;
+    </script>
+</body>
+</html>
